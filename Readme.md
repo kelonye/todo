@@ -28,6 +28,7 @@
 
 ## Implementation
 
+<<<<<<< HEAD
   In this implementation all private client-side components are located in `./client`,
   while server related REST end-points are in `./server`. The `./index.html`
   file bootstraps the client-side, and `app.js` is a small Express server
@@ -45,6 +46,13 @@
   and `./views` etc. The entire app could be a single component, with all dependencies
   specified in the root ./component.json, however I recommend splitting your app
   into multiple as shown here, regardless of directory structure.
+=======
+  In this implementation both server and client components are
+  located within the `./lib` directory. Each component may be
+  made up of only server-side scripts, client, or both. For example
+  `./lib/item`'s "index.js" file is the server portion for nodejs,
+  while "item.js" is the client-side model.
+>>>>>>> add/alternative-structure
 
 ## Components used
 

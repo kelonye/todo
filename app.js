@@ -4,8 +4,8 @@
  */
 
 var express = require('express')
-  , build = require('./server/build')
-  , items = require('./server/items')
+  , build = require('./lib/build')
+  , items = require('./lib/item')
   , app = express();
 
 // configure
