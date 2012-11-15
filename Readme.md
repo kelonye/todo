@@ -20,11 +20,8 @@
 
 ## Implementation
 
-  In this implementation both server and client components are
-  located within the `./lib` directory. Each component may be
-  made up of only server-side scripts, client, or both. For example
-  `./lib/item`'s "index.js" file is the server portion for nodejs,
-  while "item.js" is the client-side model.
+  In this implementation the traditional MVC directory structure is used,
+  separating components by domain instead of by resource, into `./lib/controllers`, `./lib/models`, `./lib/views`.
 
 ## Components used
 

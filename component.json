@@ -2,6 +2,10 @@
   "name": "todo",
   "description": "TodoMVC component example",
   "version": "0.0.1",
-  "local": ["boot"],
-  "paths": ["lib"]
+  "local": ["app"],
+  "paths": [
+    "lib/controllers",
+    "lib/models",
+    "lib/views"
+  ]
 }
