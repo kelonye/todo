@@ -18,14 +18,6 @@
 
     $ node app
 
-## Implementations
-
-  This repository has several branches to display several techniques 
-  that may be applied to structure your application. So far we have
-  the following:
-  
-    - `master` use separate `./client` and `./server` directories
-
 ## Implementation
 
   In this implementation both server and client components are
