@@ -7,7 +7,7 @@ var Item = require('item')
   , ItemView = require('item-view')
   , Collection = require('collection')
   , keyname = require('keyname')
-  , page = require('page')
+  , page = require('page.js')
 
 /**
  * Collection of todo Items.
